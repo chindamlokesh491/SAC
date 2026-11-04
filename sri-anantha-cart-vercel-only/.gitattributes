@@ -1,0 +1,22 @@
+# Store and check out text as LF on every platform.
+# Migration checksums (apps/api/scripts/migrate.mjs) hash raw file bytes, and
+# scripts/verify-deployment-config.mjs parses render.yaml line by line, so a CRLF
+# checkout on Windows must never differ from the LF bytes applied from CI or Linux.
+* text=auto eol=lf
+
+*.sql text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.sh text eol=lf
+
+# Binary assets
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.gif binary
+*.ico binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.pdf binary

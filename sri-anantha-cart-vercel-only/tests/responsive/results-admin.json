@@ -1,0 +1,1332 @@
+[
+ {
+  "width": 320,
+  "route": "/admin",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [
+   "a.chart-hit 30×71"
+  ],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 320,
+  "route": "/admin/orders",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 320,
+  "route": "/admin/products",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 320,
+  "route": "/admin/products/new",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 320,
+  "route": "/admin/categories",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 320,
+  "route": "/admin/customers",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 320,
+  "route": "/admin/inventory",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 320,
+  "route": "/admin/payments",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 320,
+  "route": "/admin/delivery",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 320,
+  "route": "/admin/reports",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 320,
+  "route": "/admin/settings",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 320,
+  "route": "/admin/account",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 360,
+  "route": "/admin",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [
+   "a.chart-hit 35×83"
+  ],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 360,
+  "route": "/admin/orders",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 360,
+  "route": "/admin/products",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 360,
+  "route": "/admin/products/new",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 360,
+  "route": "/admin/categories",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 360,
+  "route": "/admin/customers",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 360,
+  "route": "/admin/inventory",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 360,
+  "route": "/admin/payments",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 360,
+  "route": "/admin/delivery",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 360,
+  "route": "/admin/reports",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 360,
+  "route": "/admin/settings",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 360,
+  "route": "/admin/account",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 375,
+  "route": "/admin",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [
+   "a.chart-hit 37×87"
+  ],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 375,
+  "route": "/admin/orders",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 375,
+  "route": "/admin/products",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 375,
+  "route": "/admin/products/new",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 375,
+  "route": "/admin/categories",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 375,
+  "route": "/admin/customers",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 375,
+  "route": "/admin/inventory",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 375,
+  "route": "/admin/payments",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 375,
+  "route": "/admin/delivery",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 375,
+  "route": "/admin/reports",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 375,
+  "route": "/admin/settings",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 375,
+  "route": "/admin/account",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 390,
+  "route": "/admin",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [
+   "a.chart-hit 39×92"
+  ],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 390,
+  "route": "/admin/orders",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 390,
+  "route": "/admin/products",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 390,
+  "route": "/admin/products/new",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 390,
+  "route": "/admin/categories",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 390,
+  "route": "/admin/customers",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 390,
+  "route": "/admin/inventory",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 390,
+  "route": "/admin/payments",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 390,
+  "route": "/admin/delivery",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 390,
+  "route": "/admin/reports",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 390,
+  "route": "/admin/settings",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 390,
+  "route": "/admin/account",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 412,
+  "route": "/admin",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 412,
+  "route": "/admin/orders",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 412,
+  "route": "/admin/products",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 412,
+  "route": "/admin/products/new",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 412,
+  "route": "/admin/categories",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 412,
+  "route": "/admin/customers",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 412,
+  "route": "/admin/inventory",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 412,
+  "route": "/admin/payments",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 412,
+  "route": "/admin/delivery",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 412,
+  "route": "/admin/reports",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 412,
+  "route": "/admin/settings",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 412,
+  "route": "/admin/account",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 430,
+  "route": "/admin",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 430,
+  "route": "/admin/orders",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 430,
+  "route": "/admin/products",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 430,
+  "route": "/admin/products/new",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 430,
+  "route": "/admin/categories",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 430,
+  "route": "/admin/customers",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 430,
+  "route": "/admin/inventory",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 430,
+  "route": "/admin/payments",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 430,
+  "route": "/admin/delivery",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 430,
+  "route": "/admin/reports",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 430,
+  "route": "/admin/settings",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 430,
+  "route": "/admin/account",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 768,
+  "route": "/admin",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 768,
+  "route": "/admin/orders",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 768,
+  "route": "/admin/products",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 768,
+  "route": "/admin/products/new",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 768,
+  "route": "/admin/categories",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 768,
+  "route": "/admin/customers",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 768,
+  "route": "/admin/inventory",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 768,
+  "route": "/admin/payments",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 768,
+  "route": "/admin/delivery",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 768,
+  "route": "/admin/reports",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 768,
+  "route": "/admin/settings",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 768,
+  "route": "/admin/account",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 1024,
+  "route": "/admin",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 1024,
+  "route": "/admin/orders",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 1024,
+  "route": "/admin/products",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 1024,
+  "route": "/admin/products/new",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 1024,
+  "route": "/admin/categories",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 1024,
+  "route": "/admin/customers",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 1024,
+  "route": "/admin/inventory",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 1024,
+  "route": "/admin/payments",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 1024,
+  "route": "/admin/delivery",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 1024,
+  "route": "/admin/reports",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 1024,
+  "route": "/admin/settings",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 1024,
+  "route": "/admin/account",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 1280,
+  "route": "/admin",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [
+   "button.bell \"4\" 36×43",
+   "a.link-red \"Open Reports\" 115×21",
+   "a.link-red \"Last 30 Days\" 110×21",
+   "a.legend-link \"Pending0(0.0%)\" 181×25",
+   "a.legend-link \"Accepted0(0.0%)\" 181×25",
+   "a.legend-link \"Packed1(8.3%)\" 181×25",
+   "a.legend-link \"Delivered11(91.7%)\" 181×25",
+   "a.legend-link \"Cancelled0(0.0%)\" 181×25"
+  ],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 1280,
+  "route": "/admin/orders",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [
+   "button.bell \"4\" 36×43",
+   "a.btn-view \"View\" 65×30"
+  ],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 1280,
+  "route": "/admin/products",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [
+   "button.bell \"4\" 36×43",
+   "a.btn-view \"Edit\" 58×30",
+   "button.btn-view \"Archive\" 82×30",
+   "button.btn-view \"Delete\" 74×30",
+   "button.btn \"Previous\" 85×34",
+   "button.btn \"Next\" 59×34"
+  ],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 1280,
+  "route": "/admin/products/new",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [
+   "button.bell \"4\" 36×43",
+   "a.link-red \"All products\" 104×21",
+   "button.btn \"Add variant\" 126×34"
+  ],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 1280,
+  "route": "/admin/categories",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [
+   "button.bell \"4\" 36×43",
+   "button.btn-view \"Edit\" 58×30",
+   "button.btn-view \"+ Subcategory\" 127×30",
+   "button.btn-view \"Delete\" 74×30"
+  ],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 1280,
+  "route": "/admin/customers",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [
+   "button.bell \"4\" 36×43",
+   "a.btn-view \"View\" 65×30",
+   "button.btn \"Previous\" 85×34",
+   "button.btn \"Next\" 59×34"
+  ],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 1280,
+  "route": "/admin/inventory",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [
+   "button.bell \"4\" 36×43",
+   "button.btn-view \"Update\" 79×30",
+   "button.btn-view \"History\" 80×30"
+  ],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 1280,
+  "route": "/admin/payments",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [
+   "button.bell \"4\" 36×43"
+  ],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 1280,
+  "route": "/admin/delivery",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [
+   "button.bell \"4\" 36×43",
+   "button.btn \"Save charges\" 115×34",
+   "button.btn \"Add zone\" 113×34",
+   "button.btn-view \"Edit\" 58×30",
+   "button.btn \"Add slot\" 106×34"
+  ],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 1280,
+  "route": "/admin/reports",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [
+   "button.bell \"4\" 36×43",
+   "button.btn \"Last 7 days\" 101×34",
+   "button.btn \"Last 30 days\" 110×34",
+   "button.btn \"Last 90 days\" 110×34",
+   "a.btn \"CSV\" 82×34"
+  ],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 1280,
+  "route": "/admin/settings",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [
+   "button.bell \"4\" 36×43",
+   "button.btn \"Save store details\" 141×34",
+   "button.btn \"Save payment methods\" 178×34",
+   "button.btn \"Save tax settings\" 137×34",
+   "button.icon-btn 36×36",
+   "button.btn \"Add staff or delivery pa\" 298×34"
+  ],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 1280,
+  "route": "/admin/account",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [
+   "button.bell \"4\" 36×43",
+   "button.icon-btn 36×36"
+  ],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 1440,
+  "route": "/admin",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [
+   "button.bell \"4\" 36×43",
+   "a.link-red \"Open Reports\" 115×21",
+   "a.link-red \"Last 30 Days\" 110×21",
+   "a.legend-link \"Pending0(0.0%)\" 190×25",
+   "a.legend-link \"Accepted0(0.0%)\" 190×25",
+   "a.legend-link \"Packed1(8.3%)\" 190×25",
+   "a.legend-link \"Delivered11(91.7%)\" 190×25",
+   "a.legend-link \"Cancelled0(0.0%)\" 190×25"
+  ],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 1440,
+  "route": "/admin/orders",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [
+   "button.bell \"4\" 36×43",
+   "a.btn-view \"View\" 65×30"
+  ],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 1440,
+  "route": "/admin/products",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [
+   "button.bell \"4\" 36×43",
+   "a.btn-view \"Edit\" 58×30",
+   "button.btn-view \"Archive\" 82×30",
+   "button.btn-view \"Delete\" 74×30",
+   "button.btn \"Previous\" 85×34",
+   "button.btn \"Next\" 59×34"
+  ],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 1440,
+  "route": "/admin/products/new",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [
+   "button.bell \"4\" 36×43",
+   "a.link-red \"All products\" 104×21",
+   "button.btn \"Add variant\" 126×34"
+  ],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 1440,
+  "route": "/admin/categories",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [
+   "button.bell \"4\" 36×43",
+   "button.btn-view \"Edit\" 58×30",
+   "button.btn-view \"+ Subcategory\" 127×30",
+   "button.btn-view \"Delete\" 74×30"
+  ],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 1440,
+  "route": "/admin/customers",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [
+   "button.bell \"4\" 36×43",
+   "a.btn-view \"View\" 65×30",
+   "button.btn \"Previous\" 85×34",
+   "button.btn \"Next\" 59×34"
+  ],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 1440,
+  "route": "/admin/inventory",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [
+   "button.bell \"4\" 36×43",
+   "button.btn-view \"Update\" 79×30",
+   "button.btn-view \"History\" 80×30"
+  ],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 1440,
+  "route": "/admin/payments",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [
+   "button.bell \"4\" 36×43"
+  ],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 1440,
+  "route": "/admin/delivery",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [
+   "button.bell \"4\" 36×43",
+   "button.btn \"Save charges\" 115×34",
+   "button.btn \"Add zone\" 113×34",
+   "button.btn-view \"Edit\" 58×30",
+   "button.btn \"Add slot\" 106×34"
+  ],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 1440,
+  "route": "/admin/reports",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [
+   "button.bell \"4\" 36×43",
+   "button.btn \"Last 7 days\" 101×34",
+   "button.btn \"Last 30 days\" 110×34",
+   "button.btn \"Last 90 days\" 110×34",
+   "a.btn \"CSV\" 82×34"
+  ],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 1440,
+  "route": "/admin/settings",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [
+   "button.bell \"4\" 36×43",
+   "button.btn \"Save store details\" 141×34",
+   "button.btn \"Save payment methods\" 178×34",
+   "button.btn \"Save tax settings\" 137×34",
+   "button.icon-btn 36×36",
+   "button.btn \"Add staff or delivery pa\" 298×34"
+  ],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 1440,
+  "route": "/admin/account",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [
+   "button.bell \"4\" 36×43",
+   "button.icon-btn 36×36"
+  ],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ }
+]

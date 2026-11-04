@@ -1,0 +1,282 @@
+[
+ {
+  "device": "small-320",
+  "route": "/",
+  "overflow": 0,
+  "off": [],
+  "small": [],
+  "clipped": []
+ },
+ {
+  "device": "small-320",
+  "route": "/categories",
+  "overflow": 0,
+  "off": [],
+  "small": [],
+  "clipped": []
+ },
+ {
+  "device": "small-320",
+  "route": "/c/pooja-essentials",
+  "overflow": 0,
+  "off": [],
+  "small": [],
+  "clipped": []
+ },
+ {
+  "device": "small-320",
+  "route": "/products/brass-diya",
+  "overflow": 0,
+  "off": [],
+  "small": [],
+  "clipped": []
+ },
+ {
+  "device": "small-320",
+  "route": "/search?q=diya",
+  "overflow": 0,
+  "off": [],
+  "small": [],
+  "clipped": []
+ },
+ {
+  "device": "small-320",
+  "route": "/cart",
+  "overflow": 0,
+  "off": [],
+  "small": [],
+  "clipped": []
+ },
+ {
+  "device": "small-320",
+  "route": "/login",
+  "overflow": 0,
+  "off": [],
+  "small": [],
+  "clipped": []
+ },
+ {
+  "device": "standard-360",
+  "route": "/",
+  "overflow": 0,
+  "off": [],
+  "small": [],
+  "clipped": []
+ },
+ {
+  "device": "standard-360",
+  "route": "/categories",
+  "overflow": 0,
+  "off": [],
+  "small": [],
+  "clipped": []
+ },
+ {
+  "device": "standard-360",
+  "route": "/c/pooja-essentials",
+  "overflow": 0,
+  "off": [],
+  "small": [],
+  "clipped": []
+ },
+ {
+  "device": "standard-360",
+  "route": "/products/brass-diya",
+  "overflow": 0,
+  "off": [],
+  "small": [],
+  "clipped": []
+ },
+ {
+  "device": "standard-360",
+  "route": "/search?q=diya",
+  "overflow": 0,
+  "off": [],
+  "small": [],
+  "clipped": []
+ },
+ {
+  "device": "standard-360",
+  "route": "/cart",
+  "overflow": 0,
+  "off": [],
+  "small": [],
+  "clipped": []
+ },
+ {
+  "device": "standard-360",
+  "route": "/login",
+  "overflow": 0,
+  "off": [],
+  "small": [],
+  "clipped": []
+ },
+ {
+  "device": "large-412",
+  "route": "/",
+  "overflow": 0,
+  "off": [],
+  "small": [],
+  "clipped": []
+ },
+ {
+  "device": "large-412",
+  "route": "/categories",
+  "overflow": 0,
+  "off": [],
+  "small": [],
+  "clipped": []
+ },
+ {
+  "device": "large-412",
+  "route": "/c/pooja-essentials",
+  "overflow": 0,
+  "off": [],
+  "small": [],
+  "clipped": []
+ },
+ {
+  "device": "large-412",
+  "route": "/products/brass-diya",
+  "overflow": 0,
+  "off": [],
+  "small": [],
+  "clipped": []
+ },
+ {
+  "device": "large-412",
+  "route": "/search?q=diya",
+  "overflow": 0,
+  "off": [],
+  "small": [],
+  "clipped": []
+ },
+ {
+  "device": "large-412",
+  "route": "/cart",
+  "overflow": 0,
+  "off": [],
+  "small": [],
+  "clipped": []
+ },
+ {
+  "device": "large-412",
+  "route": "/login",
+  "overflow": 0,
+  "off": [],
+  "small": [],
+  "clipped": []
+ },
+ {
+  "device": "tablet-768",
+  "route": "/",
+  "overflow": 0,
+  "off": [],
+  "small": [],
+  "clipped": []
+ },
+ {
+  "device": "tablet-768",
+  "route": "/categories",
+  "overflow": 0,
+  "off": [],
+  "small": [],
+  "clipped": []
+ },
+ {
+  "device": "tablet-768",
+  "route": "/c/pooja-essentials",
+  "overflow": 0,
+  "off": [],
+  "small": [],
+  "clipped": []
+ },
+ {
+  "device": "tablet-768",
+  "route": "/products/brass-diya",
+  "overflow": 0,
+  "off": [],
+  "small": [],
+  "clipped": []
+ },
+ {
+  "device": "tablet-768",
+  "route": "/search?q=diya",
+  "overflow": 0,
+  "off": [],
+  "small": [],
+  "clipped": []
+ },
+ {
+  "device": "tablet-768",
+  "route": "/cart",
+  "overflow": 0,
+  "off": [],
+  "small": [],
+  "clipped": []
+ },
+ {
+  "device": "tablet-768",
+  "route": "/login",
+  "overflow": 0,
+  "off": [],
+  "small": [],
+  "clipped": []
+ },
+ {
+  "device": "landscape-780",
+  "route": "/",
+  "overflow": 0,
+  "off": [],
+  "small": [],
+  "clipped": []
+ },
+ {
+  "device": "landscape-780",
+  "route": "/categories",
+  "overflow": 0,
+  "off": [],
+  "small": [],
+  "clipped": []
+ },
+ {
+  "device": "landscape-780",
+  "route": "/c/pooja-essentials",
+  "overflow": 0,
+  "off": [],
+  "small": [],
+  "clipped": []
+ },
+ {
+  "device": "landscape-780",
+  "route": "/products/brass-diya",
+  "overflow": 0,
+  "off": [],
+  "small": [],
+  "clipped": []
+ },
+ {
+  "device": "landscape-780",
+  "route": "/search?q=diya",
+  "overflow": 0,
+  "off": [],
+  "small": [],
+  "clipped": []
+ },
+ {
+  "device": "landscape-780",
+  "route": "/cart",
+  "overflow": 0,
+  "off": [],
+  "small": [],
+  "clipped": []
+ },
+ {
+  "device": "landscape-780",
+  "route": "/login",
+  "overflow": 0,
+  "off": [],
+  "small": [],
+  "clipped": []
+ }
+]

@@ -1,0 +1,4 @@
+/                      {"lcp":1656,"cls":0.023,"ttfb":43,"transferKB":740,"apiCalls":2}
+/c/pooja-essentials    {"lcp":2384,"cls":0,"ttfb":30,"transferKB":605,"apiCalls":2}
+/products/brass-diya   {"lcp":2628,"cls":0,"ttfb":23,"transferKB":532,"apiCalls":2}
+/cart                  {"lcp":712,"cls":0.028,"ttfb":8,"transferKB":372,"apiCalls":3}

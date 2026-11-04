@@ -1,0 +1,2 @@
+Small touch targets: 0
+35 screens, 0 with layout defects.

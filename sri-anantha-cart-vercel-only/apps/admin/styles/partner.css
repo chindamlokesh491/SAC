@@ -1,0 +1,54 @@
+/* Delivery-partner PWA: mobile-first, one column, large touch targets (≥ 48px). */
+.partner { min-height: 100vh; background: var(--ivory); padding-bottom: calc(24px + env(safe-area-inset-bottom)); }
+.partner-top { position: sticky; top: 0; z-index: 10; background: linear-gradient(180deg, var(--maroon-700), var(--maroon-800)); color: #fff; padding: calc(12px + env(safe-area-inset-top)) 16px 12px; display: flex; align-items: center; gap: 12px; box-shadow: var(--shadow); }
+.partner-top a, .partner-top button { color: #fff; }
+.partner-top .title { flex: 1; min-width: 0; }
+.partner-top .title strong { display: block; font-family: var(--font-serif); font-size: 18px; line-height: 1.2; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.partner-top .title small { opacity: .85; font-size: 12.5px; }
+.partner-top .icon-btn { min-width: 44px; min-height: 44px; display: grid; place-items: center; border-radius: 10px; background: rgba(255, 255, 255, .12); border: 0; }
+.partner-main { max-width: 640px; margin: 0 auto; padding: 16px; display: grid; gap: 14px; }
+.partner .card { padding: 16px; display: grid; gap: 12px; }
+.partner .card h2 { font-size: 17px; }
+.partner .btn { min-height: 48px; }
+.partner .btn-lg { min-height: 54px; }
+.partner .input, .partner .select, .partner .textarea { min-height: 48px; font-size: 16px; }
+
+.partner-summary { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+.partner-summary div { background: #fff; border: 1px solid var(--line); border-radius: var(--radius); padding: 12px; text-align: center; }
+.partner-summary strong { display: block; font-size: 24px; font-family: var(--font-serif); color: var(--primary); }
+.partner-summary span { font-size: 12.5px; color: var(--muted); }
+
+.partner .card.partner-online, .partner-online { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.partner-online .state { display: flex; align-items: center; gap: 8px; font-weight: 600; }
+.partner-online .dot { width: 10px; height: 10px; border-radius: 50%; background: var(--muted-2); }
+.partner-online .dot.on { background: var(--green); box-shadow: 0 0 0 4px var(--green-soft); }
+
+.partner-tabs { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; background: var(--cream); padding: 4px; border-radius: 12px; }
+.partner-tabs button { min-height: 44px; border: 0; border-radius: 9px; background: transparent; font-weight: 600; font-size: 14px; color: var(--ink-2); }
+.partner-tabs button[aria-selected='true'] { background: #fff; color: var(--primary); box-shadow: var(--shadow-sm); }
+
+.partner-order { display: grid; gap: 6px; padding: 14px 16px; background: #fff; border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow-sm); }
+.partner-order:active { background: var(--cream); }
+.partner-order .row { display: flex; justify-content: space-between; align-items: center; gap: 10px; }
+.partner-order .num { font-weight: 700; }
+.partner-order .addr { color: var(--muted); font-size: 14px; }
+
+.partner .kv { display: grid; grid-template-columns: auto 1fr; gap: 6px 14px; font-size: 15px; margin: 0; }
+.partner .kv dt { color: var(--muted); }
+.partner .kv dd { margin: 0; font-weight: 600; text-align: right; overflow-wrap: anywhere; }
+.partner .contact-actions { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.partner .items { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; }
+.partner .items li { display: flex; justify-content: space-between; gap: 10px; font-size: 15px; }
+.partner .due { font-size: 30px; font-family: var(--font-serif); font-weight: 700; color: var(--primary); text-align: center; }
+.partner .otp-entry { letter-spacing: .5em; font-size: 26px; text-align: center; font-weight: 700; }
+.partner .stage { display: flex; gap: 6px; overflow-x: auto; padding-bottom: 2px; }
+.partner .stage span { flex: 1; min-width: 64px; text-align: center; font-size: 11.5px; padding: 6px 4px; border-radius: 6px; background: var(--cream); color: var(--muted); }
+.partner .stage span.done { background: var(--green-soft); color: var(--green); font-weight: 600; }
+.partner .stage span.now { background: var(--primary); color: #fff; font-weight: 600; }
+.partner .empty-state { text-align: center; color: var(--muted); padding: 32px 16px; }
+.partner-toast { position: fixed; left: 16px; right: 16px; bottom: calc(16px + env(safe-area-inset-bottom)); z-index: 50; max-width: 608px; margin: 0 auto; }
+
+.partner-login { min-height: 100vh; display: grid; place-items: center; padding: 24px 16px; background: linear-gradient(180deg, var(--cream), var(--ivory)); }
+.partner-login .card { width: 100%; max-width: 400px; padding: 24px; display: grid; gap: 16px; }
+.partner-login img { margin: 0 auto; }
+.partner-login h1 { text-align: center; font-size: 22px; }

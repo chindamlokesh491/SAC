@@ -1,0 +1,30 @@
+/* Components used by both the storefront and the admin panel (alerts, chips, dropdowns, empty states,
+   info boxes, key-value rows, phone field, two-column forms). Moved out of the storefront stylesheet. */
+.dropdown { position: absolute; top: calc(100% + 12px); right: 0; background: #fff; border: 1px solid var(--line); border-radius: 12px; box-shadow: var(--shadow-lg); min-width: 230px; padding: 8px; z-index: 60; }
+.dropdown a, .dropdown button { display: flex; gap: 10px; align-items: center; width: 100%; padding: 10px 12px; border-radius: 8px; border: 0; background: none; font-size: 14px; text-align: left; }
+.dropdown a:hover, .dropdown button:hover { background: var(--cream); }
+.dropdown hr { border: 0; border-top: 1px solid var(--line); margin: 6px 0; }
+.dropdown-title { padding: 8px 12px 4px; font-size: 12px; color: var(--muted); }
+.chip { flex: none; border: 1px solid var(--line-strong); background: #fff; border-radius: 999px; padding: 7px 14px; font-size: 13px; font-weight: 600; }
+.chip.active { background: var(--primary); border-color: var(--primary); color: #fff; }
+.empty { text-align: center; padding: 48px 20px; color: var(--muted); background: #fff; border: 1px dashed var(--line-strong); border-radius: var(--radius); }
+.empty h2, .empty h3 { color: var(--ink); margin-bottom: 8px; }
+.empty .btn { margin-top: 16px; }
+.alert { padding: 12px 14px; border-radius: 8px; font-size: 14px; display: flex; gap: 10px; align-items: flex-start; }
+.alert-warning { background: var(--amber-soft); color: #7a4b00; }
+.alert-danger { background: var(--red-soft); color: #8f1d16; }
+.alert-info { background: var(--blue-soft); color: #1b4f91; }
+.box { background: #fff; border: 1px solid var(--line); border-radius: var(--radius); padding: 18px 20px; }
+.box h2 { font-family: var(--font-sans); font-size: 17px; margin-bottom: 12px; }
+.kv { display: flex; justify-content: space-between; gap: 12px; padding: 6px 0; font-size: 14.5px; color: var(--ink-2); }
+.kv.total { border-top: 1px solid var(--line); margin-top: 6px; padding-top: 12px; font-weight: 700; color: var(--ink); font-size: 16px; }
+.phone-field { display: flex; border: 1px solid var(--line-strong); border-radius: 8px; overflow: hidden; background: #fff; }
+.phone-field:focus-within { border-color: var(--red); box-shadow: 0 0 0 3px rgba(200, 22, 29, .12); }
+.phone-field span { padding: 0 14px; display: grid; place-items: center; background: var(--cream); font-weight: 600; border-right: 1px solid var(--line); }
+.phone-field input { flex: 1; border: 0; outline: 0; padding: 12px 14px; min-width: 0; font-size: 16px; letter-spacing: .04em; }
+.locate-box { display: grid; gap: 6px; padding: 12px; border: 1px dashed var(--line-strong); border-radius: 10px; background: var(--cream); }
+.locate-box .btn { justify-self: start; }
+.form-grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+@media (max-width: 520px) {
+  .form-grid-2 { grid-template-columns: 1fr; }
+}

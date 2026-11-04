@@ -1,0 +1,14 @@
+{
+  "name": "@sac/config",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Shared TypeScript settings and the web apps' security headers (CSP).",
+  "exports": {
+    "./tsconfig/base.json": "./tsconfig/base.json",
+    "./tsconfig/nextjs.json": "./tsconfig/nextjs.json",
+    "./next-security": {
+      "types": "./next-security.d.mts",
+      "default": "./next-security.mjs"
+    }
+  }
+}

@@ -1,0 +1,192 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: sac-ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  dependency-audit:
+    name: Production dependency vulnerability audit
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+      - uses: pnpm/action-setup@v6
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: pnpm
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+      - name: Audit production dependencies
+        run: pnpm audit --prod --audit-level high
+
+  validate:
+    name: Typecheck, build, API integration tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: sac_test
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U postgres -d sac_test"
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 12
+    env:
+      TEST_DATABASE_URL: postgresql://postgres:postgres@localhost:5432/sac_test
+    steps:
+      - uses: actions/checkout@v7
+      - uses: pnpm/action-setup@v6
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: pnpm
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+      - name: Check for tracked secret files
+        shell: bash
+        run: |
+          set -euo pipefail
+          suspicious=$(git ls-files | grep -E '(^|/)(\.env($|\.)|.*\.(pem|key|jks|keystore|p12)$)' | grep -Ev '(^|/)\.env([^/]*\.)?example$' || true)
+          if [[ -n "$suspicious" ]]; then
+            printf '%s\n' "$suspicious"
+            echo 'A secret-bearing file is tracked. Remove it and rotate the secret.'
+            exit 1
+          fi
+      - name: Migration and deployment checks
+        run: |
+          pnpm verify:migrations
+          pnpm verify:deployment
+      - name: TypeScript (all apps and packages)
+        run: pnpm typecheck
+      - name: API unit and PostgreSQL integration tests
+        run: pnpm --filter @sac/api test
+      - name: Production builds (API, worker, storefront, admin)
+        run: pnpm build
+        env:
+          NEXT_PUBLIC_SITE_URL: https://example.com
+      - name: Android JavaScript bundle
+        working-directory: apps/mobile
+        run: npx expo export --platform android --output-dir dist --no-minify
+
+  db-security:
+    name: Database privileges on a Supabase-like cluster
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          # Supabase's bootstrap superuser; the app's owner role "postgres" is created as a non-superuser.
+          POSTGRES_USER: supabase_admin
+          POSTGRES_HOST_AUTH_METHOD: trust
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U supabase_admin"
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 12
+    steps:
+      - uses: actions/checkout@v7
+      - uses: pnpm/action-setup@v6
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - name: Migrations as non-superuser, privilege checks, API suite as the runtime role
+        run: EMUL_HOST=localhost EMUL_PORT=5432 pnpm test:security
+
+  e2e:
+    name: Browser end-to-end (storefront + admin)
+    needs: validate
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: sac
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U postgres -d sac"
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 12
+    env:
+      DATABASE_URL: postgresql://postgres:postgres@localhost:5432/sac
+      MEDIA_DIR: ${{ github.workspace }}/var/media
+      E2E_OTP_OUTBOX: ${{ github.workspace }}/var/otp-outbox.jsonl
+      E2E_ADMIN_PHONE: '9000000001'
+      E2E_DELIVERY_PARTNER_PHONE: '9000000002'
+      E2E_OPERATOR_PHONE: '9000000003'
+    steps:
+      - uses: actions/checkout@v7
+      - uses: pnpm/action-setup@v6
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: pnpm
+      - name: Install dependencies and browser
+        run: |
+          pnpm install --frozen-lockfile
+          pnpm exec playwright install --with-deps chromium
+      - name: Prepare database (migrations, demo catalogue, staff account)
+        run: |
+          password="Ci-$(openssl rand -hex 12)"
+          echo "::add-mask::$password"
+          echo "E2E_ADMIN_PASSWORD=$password" >> "$GITHUB_ENV"
+          echo "E2E_OPERATOR_PASSWORD=$password" >> "$GITHUB_ENV"
+          pnpm --filter @sac/api migrate
+          pnpm --filter @sac/api seed:demo
+          STAFF_PASSWORD="$password" pnpm --filter @sac/api staff:grant -- ${E2E_ADMIN_PHONE} admin
+          STAFF_PASSWORD="$password" pnpm --filter @sac/api staff:grant -- ${E2E_DELIVERY_PARTNER_PHONE} delivery_partner
+          STAFF_PASSWORD="$password" pnpm --filter @sac/api staff:grant -- ${E2E_OPERATOR_PHONE} operator
+      - name: Build
+        run: pnpm build
+        env:
+          API_SERVER_ORIGIN: http://127.0.0.1:4000
+          NEXT_PUBLIC_SITE_URL: http://localhost:3000
+      - name: Start API, worker, storefront and admin
+        shell: bash
+        run: |
+          mkdir -p var
+          (cd apps/api && NODE_ENV=development PORT=4000 HOST=127.0.0.1 SESSION_SECRET=$(openssl rand -hex 32) \
+            OTP_PROVIDER=dev-outbox OTP_DEV_OUTBOX=$E2E_OTP_OUTBOX CHECKOUT_ENABLED=true ONLINE_PAYMENTS_ENABLED=false \
+            PUBLIC_WEB_URL=http://localhost:3000 DEV_DISABLE_RATE_LIMIT=true nohup node dist/server.js > ../../var/api.log 2>&1 &)
+          (cd apps/worker && WORKER_POLL_MS=1000 nohup node dist/main.js > ../../var/worker.log 2>&1 &)
+          (cd apps/storefront && API_SERVER_ORIGIN=http://127.0.0.1:4000 nohup pnpm start -p 3000 > ../../var/web.log 2>&1 &)
+          (cd apps/admin && API_SERVER_ORIGIN=http://127.0.0.1:4000 nohup pnpm start > ../../var/admin.log 2>&1 &)
+          for i in $(seq 1 60); do
+            curl -fs http://127.0.0.1:4000/ready >/dev/null && curl -fs -o /dev/null http://127.0.0.1:3000/ \
+              && curl -fs -o /dev/null http://127.0.0.1:3001/admin/login && exit 0
+            sleep 2
+          done
+          cat var/api.log var/web.log var/admin.log
+          exit 1
+      - name: Run browser tests
+        run: pnpm test:e2e
+      - name: Server logs
+        if: failure()
+        run: cat var/api.log var/worker.log var/web.log var/admin.log

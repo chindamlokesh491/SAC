@@ -1,0 +1,32 @@
+{
+  "name": "sri-anantha-cart",
+  "private": true,
+  "version": "0.1.0",
+  "packageManager": "pnpm@10.34.9",
+  "scripts": {
+    "dev": "turbo run dev --filter=@sac/api --filter=@sac/worker --filter=@sac/storefront --filter=@sac/admin",
+    "dev:api": "pnpm --filter @sac/api dev",
+    "dev:worker": "pnpm --filter @sac/worker dev",
+    "dev:storefront": "pnpm --filter @sac/storefront dev",
+    "dev:admin": "pnpm --filter @sac/admin dev",
+    "build": "turbo run build",
+    "typecheck": "turbo run typecheck",
+    "lint": "turbo run lint",
+    "test:api": "pnpm --filter @sac/api test",
+    "test:e2e": "node --test --test-concurrency=1 tests/e2e/*.e2e.cjs",
+    "test:security": "bash tests/security/run-supabase-emulation.sh && node --test tests/security/*.test.mjs",
+    "test:load": "node tests/load/catalogue-latency.mjs",
+    "verify:migrations": "node scripts/verify-migrations.mjs",
+    "verify:deployment": "node scripts/verify-deployment-config.mjs"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.4",
+    "playwright": "1.63.0",
+    "tsx": "^4.19.2",
+    "turbo": "2.5.8",
+    "typescript": "^5.7.3"
+  },
+  "engines": {
+    "node": "22.x"
+  }
+}

@@ -1,0 +1,41 @@
+psql:/home/user/sri-anantha-cart/tests/security/supabase-emulation-setup.sql:16: NOTICE:  role "authenticator" has already been granted membership in role "anon" by role "supabase_admin"
+psql:/home/user/sri-anantha-cart/tests/security/supabase-emulation-setup.sql:16: NOTICE:  role "authenticator" has already been granted membership in role "authenticated" by role "supabase_admin"
+psql:/home/user/sri-anantha-cart/tests/security/supabase-emulation-setup.sql:16: NOTICE:  role "authenticator" has already been granted membership in role "service_role" by role "supabase_admin"
+Migration run complete. Newly applied: 24.
+┌─────────┬─────────────────────────────────────────────────────────────────┬────────┬─────────────┐
+│ (index) │ check                                                           │ result │ detail      │
+├─────────┼─────────────────────────────────────────────────────────────────┼────────┼─────────────┤
+│ 0       │ 'RLS enabled on all 38 tables'                                  │ 'PASS' │ ''          │
+│ 1       │ 'anon: cannot read any table'                                   │ 'PASS' │ ''          │
+│ 2       │ 'anon: cannot write any table'                                  │ 'PASS' │ ''          │
+│ 3       │ 'anon: cannot call database functions'                          │ 'PASS' │ '42501'     │
+│ 4       │ 'anon: cannot use sequences'                                    │ 'PASS' │ '42501'     │
+│ 5       │ 'authenticated: cannot read any table'                          │ 'PASS' │ ''          │
+│ 6       │ 'authenticated: cannot write any table'                         │ 'PASS' │ ''          │
+│ 7       │ 'authenticated: cannot call database functions'                 │ 'PASS' │ '42501'     │
+│ 8       │ 'authenticated: cannot use sequences'                           │ 'PASS' │ '42501'     │
+│ 9       │ 'service_role: cannot read any table'                           │ 'PASS' │ ''          │
+│ 10      │ 'service_role: cannot write any table'                          │ 'PASS' │ ''          │
+│ 11      │ 'service_role: cannot call database functions'                  │ 'PASS' │ '42501'     │
+│ 12      │ 'service_role: cannot use sequences'                            │ 'PASS' │ '42501'     │
+│ 13      │ 'mistaken GRANT to authenticated still returns zero rows (RLS)' │ 'PASS' │ '[{"n":0}]' │
+│ 14      │ 'runtime: INSERT'                                               │ 'PASS' │ ''          │
+│ 15      │ 'runtime: SELECT'                                               │ 'PASS' │ ''          │
+│ 16      │ 'runtime: UPDATE'                                               │ 'PASS' │ ''          │
+│ 17      │ 'runtime: DELETE'                                               │ 'PASS' │ ''          │
+│ 18      │ 'runtime: can run worker functions'                             │ 'PASS' │ ''          │
+│ 19      │ 'runtime: cannot TRUNCATE'                                      │ 'PASS' │ '42501'     │
+│ 20      │ 'runtime: cannot DROP TABLE'                                    │ 'PASS' │ '42501'     │
+│ 21      │ 'runtime: cannot ALTER TABLE'                                   │ 'PASS' │ '42501'     │
+│ 22      │ 'runtime: cannot CREATE TABLE'                                  │ 'PASS' │ '42501'     │
+│ 23      │ 'runtime: cannot DISABLE RLS'                                   │ 'PASS' │ '42501'     │
+│ 24      │ 'runtime: cannot read migration history'                        │ 'PASS' │ '42501'     │
+│ 25      │ 'runtime: cannot become the owner'                              │ 'PASS' │ '42501'     │
+│ 26      │ 'runtime: cannot create roles'                                  │ 'PASS' │ '42501'     │
+│ 27      │ 'runtime: cannot modify audit log'                              │ 'PASS' │ '42501'     │
+│ 28      │ 'Supabase service roles can still connect'                      │ 'PASS' │ ''          │
+└─────────┴─────────────────────────────────────────────────────────────────┴────────┴─────────────┘
+29/29 checks passed
+# tests 182
+# pass 182
+# fail 0

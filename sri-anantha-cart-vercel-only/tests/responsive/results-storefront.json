@@ -1,0 +1,1552 @@
+[
+ {
+  "width": 320,
+  "route": "/",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 320,
+  "route": "/categories",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 320,
+  "route": "/c/pooja-essentials",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 320,
+  "route": "/products/brass-diya",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 320,
+  "route": "/products/organic-haldi",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 320,
+  "route": "/search?q=diya",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 320,
+  "route": "/cart",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 320,
+  "route": "/wishlist",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 320,
+  "route": "/login",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 320,
+  "route": "/track-order",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [
+   "a.link-red \"sign in\" 44×21"
+  ],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 320,
+  "route": "/faq",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 320,
+  "route": "/about",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 320,
+  "route": "/contact",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 360,
+  "route": "/",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 360,
+  "route": "/categories",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 360,
+  "route": "/c/pooja-essentials",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 360,
+  "route": "/products/brass-diya",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 360,
+  "route": "/products/organic-haldi",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 360,
+  "route": "/search?q=diya",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 360,
+  "route": "/cart",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 360,
+  "route": "/wishlist",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 360,
+  "route": "/login",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 360,
+  "route": "/track-order",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [
+   "a.link-red \"sign in\" 44×21"
+  ],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 360,
+  "route": "/faq",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 360,
+  "route": "/about",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 360,
+  "route": "/contact",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 375,
+  "route": "/",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 375,
+  "route": "/categories",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 375,
+  "route": "/c/pooja-essentials",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 375,
+  "route": "/products/brass-diya",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 375,
+  "route": "/products/organic-haldi",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 375,
+  "route": "/search?q=diya",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 375,
+  "route": "/cart",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 375,
+  "route": "/wishlist",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 375,
+  "route": "/login",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 375,
+  "route": "/track-order",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [
+   "a.link-red \"sign in\" 44×21"
+  ],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 375,
+  "route": "/faq",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 375,
+  "route": "/about",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 375,
+  "route": "/contact",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 390,
+  "route": "/",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 390,
+  "route": "/categories",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 390,
+  "route": "/c/pooja-essentials",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 390,
+  "route": "/products/brass-diya",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 390,
+  "route": "/products/organic-haldi",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 390,
+  "route": "/search?q=diya",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 390,
+  "route": "/cart",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 390,
+  "route": "/wishlist",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 390,
+  "route": "/login",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 390,
+  "route": "/track-order",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [
+   "a.link-red \"sign in\" 44×21"
+  ],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 390,
+  "route": "/faq",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 390,
+  "route": "/about",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 390,
+  "route": "/contact",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 412,
+  "route": "/",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 412,
+  "route": "/categories",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 412,
+  "route": "/c/pooja-essentials",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 412,
+  "route": "/products/brass-diya",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 412,
+  "route": "/products/organic-haldi",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 412,
+  "route": "/search?q=diya",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 412,
+  "route": "/cart",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 412,
+  "route": "/wishlist",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 412,
+  "route": "/login",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 412,
+  "route": "/track-order",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [
+   "a.link-red \"sign in\" 44×21"
+  ],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 412,
+  "route": "/faq",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 412,
+  "route": "/about",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 412,
+  "route": "/contact",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 430,
+  "route": "/",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 430,
+  "route": "/categories",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 430,
+  "route": "/c/pooja-essentials",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 430,
+  "route": "/products/brass-diya",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 430,
+  "route": "/products/organic-haldi",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 430,
+  "route": "/search?q=diya",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 430,
+  "route": "/cart",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 430,
+  "route": "/wishlist",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 430,
+  "route": "/login",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 430,
+  "route": "/track-order",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [
+   "a.link-red \"sign in\" 44×21"
+  ],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 430,
+  "route": "/faq",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 430,
+  "route": "/about",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 430,
+  "route": "/contact",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 768,
+  "route": "/",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 768,
+  "route": "/categories",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 768,
+  "route": "/c/pooja-essentials",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 768,
+  "route": "/products/brass-diya",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 768,
+  "route": "/products/organic-haldi",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 768,
+  "route": "/search?q=diya",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 768,
+  "route": "/cart",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 768,
+  "route": "/wishlist",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 768,
+  "route": "/login",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 768,
+  "route": "/track-order",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [
+   "a.link-red \"sign in\" 44×21"
+  ],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 768,
+  "route": "/faq",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 768,
+  "route": "/about",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 768,
+  "route": "/contact",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 1024,
+  "route": "/",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 1024,
+  "route": "/categories",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 1024,
+  "route": "/c/pooja-essentials",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 1024,
+  "route": "/products/brass-diya",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 1024,
+  "route": "/products/organic-haldi",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 1024,
+  "route": "/search?q=diya",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 1024,
+  "route": "/cart",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 1024,
+  "route": "/wishlist",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 1024,
+  "route": "/login",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 1024,
+  "route": "/track-order",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [
+   "a.link-red \"sign in\" 44×21"
+  ],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 1024,
+  "route": "/faq",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 1024,
+  "route": "/about",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 1024,
+  "route": "/contact",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 1280,
+  "route": "/",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [
+   "a \"About Us\" 81×20",
+   "a \"Help\" 53×20",
+   "a \"Track Order\" 98×20",
+   "button.topbar-assistant \"Shopping Assistant\" 143×20",
+   "input 458×23",
+   "button 36×36",
+   "button.header-action \"Delivering atSet deliver\" 148×29",
+   "a.header-action \"Sign InAccount\" 101×29"
+  ],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 1280,
+  "route": "/categories",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [
+   "a \"About Us\" 81×20",
+   "a \"Help\" 53×20",
+   "a \"Track Order\" 98×20",
+   "button.topbar-assistant \"Shopping Assistant\" 143×20",
+   "input 458×23",
+   "button 36×36",
+   "button.header-action \"Delivering atSet deliver\" 148×29",
+   "a.header-action \"Sign InAccount\" 101×29"
+  ],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 1280,
+  "route": "/c/pooja-essentials",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [
+   "a \"About Us\" 81×20",
+   "a \"Help\" 53×20",
+   "a \"Track Order\" 98×20",
+   "button.topbar-assistant \"Shopping Assistant\" 143×20",
+   "input 458×23",
+   "button 36×36",
+   "button.header-action \"Delivering atSet deliver\" 148×29",
+   "a.header-action \"Sign InAccount\" 101×29"
+  ],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 1280,
+  "route": "/products/brass-diya",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [
+   "a \"About Us\" 81×20",
+   "a \"Help\" 53×20",
+   "a \"Track Order\" 98×20",
+   "button.topbar-assistant \"Shopping Assistant\" 143×20",
+   "input 458×23",
+   "button 36×36",
+   "button.header-action \"Delivering atSet deliver\" 148×29",
+   "a.header-action \"Sign InAccount\" 101×29"
+  ],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 1280,
+  "route": "/products/organic-haldi",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [
+   "a \"About Us\" 81×20",
+   "a \"Help\" 53×20",
+   "a \"Track Order\" 98×20",
+   "button.topbar-assistant \"Shopping Assistant\" 143×20",
+   "input 458×23",
+   "button 36×36",
+   "button.header-action \"Delivering atSet deliver\" 148×29",
+   "a.header-action \"Sign InAccount\" 101×29"
+  ],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 1280,
+  "route": "/search?q=diya",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [
+   "a \"About Us\" 81×20",
+   "a \"Help\" 53×20",
+   "a \"Track Order\" 98×20",
+   "button.topbar-assistant \"Shopping Assistant\" 143×20",
+   "input 458×23",
+   "button 36×36",
+   "button.header-action \"Delivering atSet deliver\" 148×29",
+   "a.header-action \"Sign InAccount\" 101×29"
+  ],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 1280,
+  "route": "/cart",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [
+   "a \"About Us\" 81×20",
+   "a \"Help\" 53×20",
+   "a \"Track Order\" 98×20",
+   "button.topbar-assistant \"Shopping Assistant\" 143×20",
+   "input 458×23",
+   "button 36×36",
+   "button.header-action \"Delivering atSet deliver\" 148×29",
+   "a.header-action \"Sign InAccount\" 101×29"
+  ],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 1280,
+  "route": "/wishlist",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [
+   "a \"About Us\" 81×20",
+   "a \"Help\" 53×20",
+   "a \"Track Order\" 98×20",
+   "button.topbar-assistant \"Shopping Assistant\" 143×20",
+   "input 458×23",
+   "button 36×36",
+   "button.header-action \"Delivering atSet deliver\" 148×29",
+   "a.header-action \"Sign InAccount\" 101×29"
+  ],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 1280,
+  "route": "/login",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [
+   "a \"About Us\" 81×20",
+   "a \"Help\" 53×20",
+   "a \"Track Order\" 98×20",
+   "button.topbar-assistant \"Shopping Assistant\" 143×20",
+   "input 458×23",
+   "button 36×36",
+   "button.header-action \"Delivering atSet deliver\" 148×29",
+   "a.header-action \"Sign InAccount\" 101×29"
+  ],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 1280,
+  "route": "/track-order",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [
+   "a \"About Us\" 81×20",
+   "a \"Help\" 53×20",
+   "a \"Track Order\" 98×20",
+   "button.topbar-assistant \"Shopping Assistant\" 143×20",
+   "input 458×23",
+   "button 36×36",
+   "button.header-action \"Delivering atSet deliver\" 148×29",
+   "a.header-action \"Sign InAccount\" 101×29"
+  ],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 1280,
+  "route": "/faq",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [
+   "a \"About Us\" 81×20",
+   "a \"Help\" 53×20",
+   "a \"Track Order\" 98×20",
+   "button.topbar-assistant \"Shopping Assistant\" 143×20",
+   "input 458×23",
+   "button 36×36",
+   "button.header-action \"Delivering atSet deliver\" 148×29",
+   "a.header-action \"Sign InAccount\" 101×29"
+  ],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 1280,
+  "route": "/about",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [
+   "a \"About Us\" 81×20",
+   "a \"Help\" 53×20",
+   "a \"Track Order\" 98×20",
+   "button.topbar-assistant \"Shopping Assistant\" 143×20",
+   "input 458×23",
+   "button 36×36",
+   "button.header-action \"Delivering atSet deliver\" 148×29",
+   "a.header-action \"Sign InAccount\" 101×29"
+  ],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 1280,
+  "route": "/contact",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [
+   "a \"About Us\" 81×20",
+   "a \"Help\" 53×20",
+   "a \"Track Order\" 98×20",
+   "button.topbar-assistant \"Shopping Assistant\" 143×20",
+   "input 458×23",
+   "button 36×36",
+   "button.header-action \"Delivering atSet deliver\" 148×29",
+   "a.header-action \"Sign InAccount\" 101×29"
+  ],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 1440,
+  "route": "/",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [
+   "a \"About Us\" 81×20",
+   "a \"Help\" 53×20",
+   "a \"Track Order\" 98×20",
+   "button.topbar-assistant \"Shopping Assistant\" 143×20",
+   "input 458×23",
+   "button 36×36",
+   "button.header-action \"Delivering atSet deliver\" 148×29",
+   "a.header-action \"Sign InAccount\" 101×29"
+  ],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 1440,
+  "route": "/categories",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [
+   "a \"About Us\" 81×20",
+   "a \"Help\" 53×20",
+   "a \"Track Order\" 98×20",
+   "button.topbar-assistant \"Shopping Assistant\" 143×20",
+   "input 458×23",
+   "button 36×36",
+   "button.header-action \"Delivering atSet deliver\" 148×29",
+   "a.header-action \"Sign InAccount\" 101×29"
+  ],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 1440,
+  "route": "/c/pooja-essentials",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [
+   "a \"About Us\" 81×20",
+   "a \"Help\" 53×20",
+   "a \"Track Order\" 98×20",
+   "button.topbar-assistant \"Shopping Assistant\" 143×20",
+   "input 458×23",
+   "button 36×36",
+   "button.header-action \"Delivering atSet deliver\" 148×29",
+   "a.header-action \"Sign InAccount\" 101×29"
+  ],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 1440,
+  "route": "/products/brass-diya",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [
+   "a \"About Us\" 81×20",
+   "a \"Help\" 53×20",
+   "a \"Track Order\" 98×20",
+   "button.topbar-assistant \"Shopping Assistant\" 143×20",
+   "input 458×23",
+   "button 36×36",
+   "button.header-action \"Delivering atSet deliver\" 148×29",
+   "a.header-action \"Sign InAccount\" 101×29"
+  ],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 1440,
+  "route": "/products/organic-haldi",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [
+   "a \"About Us\" 81×20",
+   "a \"Help\" 53×20",
+   "a \"Track Order\" 98×20",
+   "button.topbar-assistant \"Shopping Assistant\" 143×20",
+   "input 458×23",
+   "button 36×36",
+   "button.header-action \"Delivering atSet deliver\" 148×29",
+   "a.header-action \"Sign InAccount\" 101×29"
+  ],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 1440,
+  "route": "/search?q=diya",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [
+   "a \"About Us\" 81×20",
+   "a \"Help\" 53×20",
+   "a \"Track Order\" 98×20",
+   "button.topbar-assistant \"Shopping Assistant\" 143×20",
+   "input 458×23",
+   "button 36×36",
+   "button.header-action \"Delivering atSet deliver\" 148×29",
+   "a.header-action \"Sign InAccount\" 101×29"
+  ],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 1440,
+  "route": "/cart",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [
+   "a \"About Us\" 81×20",
+   "a \"Help\" 53×20",
+   "a \"Track Order\" 98×20",
+   "button.topbar-assistant \"Shopping Assistant\" 143×20",
+   "input 458×23",
+   "button 36×36",
+   "button.header-action \"Delivering atSet deliver\" 148×29",
+   "a.header-action \"Sign InAccount\" 101×29"
+  ],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 1440,
+  "route": "/wishlist",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [
+   "a \"About Us\" 81×20",
+   "a \"Help\" 53×20",
+   "a \"Track Order\" 98×20",
+   "button.topbar-assistant \"Shopping Assistant\" 143×20",
+   "input 458×23",
+   "button 36×36",
+   "button.header-action \"Delivering atSet deliver\" 148×29",
+   "a.header-action \"Sign InAccount\" 101×29"
+  ],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 1440,
+  "route": "/login",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [
+   "a \"About Us\" 81×20",
+   "a \"Help\" 53×20",
+   "a \"Track Order\" 98×20",
+   "button.topbar-assistant \"Shopping Assistant\" 143×20",
+   "input 458×23",
+   "button 36×36",
+   "button.header-action \"Delivering atSet deliver\" 148×29",
+   "a.header-action \"Sign InAccount\" 101×29"
+  ],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 1440,
+  "route": "/track-order",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [
+   "a \"About Us\" 81×20",
+   "a \"Help\" 53×20",
+   "a \"Track Order\" 98×20",
+   "button.topbar-assistant \"Shopping Assistant\" 143×20",
+   "input 458×23",
+   "button 36×36",
+   "button.header-action \"Delivering atSet deliver\" 148×29",
+   "a.header-action \"Sign InAccount\" 101×29"
+  ],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 1440,
+  "route": "/faq",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [
+   "a \"About Us\" 81×20",
+   "a \"Help\" 53×20",
+   "a \"Track Order\" 98×20",
+   "button.topbar-assistant \"Shopping Assistant\" 143×20",
+   "input 458×23",
+   "button 36×36",
+   "button.header-action \"Delivering atSet deliver\" 148×29",
+   "a.header-action \"Sign InAccount\" 101×29"
+  ],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 1440,
+  "route": "/about",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [
+   "a \"About Us\" 81×20",
+   "a \"Help\" 53×20",
+   "a \"Track Order\" 98×20",
+   "button.topbar-assistant \"Shopping Assistant\" 143×20",
+   "input 458×23",
+   "button 36×36",
+   "button.header-action \"Delivering atSet deliver\" 148×29",
+   "a.header-action \"Sign InAccount\" 101×29"
+  ],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ },
+ {
+  "width": 1440,
+  "route": "/contact",
+  "overflow": 0,
+  "offscreen": [],
+  "smallTargets": [
+   "a \"About Us\" 81×20",
+   "a \"Help\" 53×20",
+   "a \"Track Order\" 98×20",
+   "button.topbar-assistant \"Shopping Assistant\" 143×20",
+   "input 458×23",
+   "button 36×36",
+   "button.header-action \"Delivering atSet deliver\" 148×29",
+   "a.header-action \"Sign InAccount\" 101×29"
+  ],
+  "clipped": [],
+  "unsizedImages": 0,
+  "covered": []
+ }
+]

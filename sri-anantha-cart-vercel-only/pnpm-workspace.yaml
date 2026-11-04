@@ -1,0 +1,14 @@
+packages:
+  - "apps/*"
+  - "packages/*"
+
+onlyBuiltDependencies:
+  - esbuild
+  - sharp
+
+overrides:
+  image-size: 2.0.3
+  postcss: 8.5.18
+  sharp: 0.35.5
+patchedDependencies:
+  metro@0.82.5: patches/metro@0.82.5.patch

@@ -1,0 +1,46 @@
+{
+  "name": "@sac/api",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch --env-file-if-exists=.env src/server.ts",
+    "start": "node dist/server.js",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "lint": "echo 'Configure ESLint before release'",
+    "test": "tsx --test --test-concurrency=1 test/*.test.ts",
+    "build": "tsc -p tsconfig.json",
+    "migrate": "node --env-file-if-exists=.env scripts/migrate.mjs",
+    "seed:demo": "node --env-file-if-exists=.env scripts/seed-demo.mjs",
+    "seed:acceptance": "node --env-file-if-exists=.env scripts/seed-acceptance.mjs",
+    "staff:grant": "node --env-file-if-exists=.env scripts/grant-role.mjs"
+  },
+  "dependencies": {
+    "@fastify/cookie": "^11.0.2",
+    "@fastify/helmet": "^13.2.0",
+    "@fastify/multipart": "^9.0.3",
+    "@fastify/rate-limit": "^10.2.1",
+    "fastify": "^5.2.1",
+    "jose": "^5.9.6",
+    "pg": "^8.13.3",
+    "sharp": "^0.35.5",
+    "zod": "^4.6.6"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.4",
+    "@types/pg": "^8.11.11",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3",
+    "@sac/config": "workspace:*"
+  },
+  "exports": {
+    "./jobs": {
+      "types": "./src/jobs/index.ts",
+      "development": "./src/jobs/index.ts",
+      "default": "./dist/jobs/index.js"
+    }
+  },
+  "engines": {
+    "node": "22.x"
+  }
+}

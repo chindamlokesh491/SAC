@@ -1,0 +1,38 @@
+{
+  "cli": {
+    "version": ">= 12.0.0",
+    "appVersionSource": "local"
+  },
+  "build": {
+    "preview": {
+      "environment": "preview",
+      "android": {
+        "buildType": "apk"
+      },
+      "distribution": "internal",
+      "env": {
+        "EXPO_PUBLIC_API_URL": "https://api.sriananthacart.in",
+        "EXPO_PUBLIC_WEB_URL": "https://sriananthacart.in",
+        "APP_LINK_HOST": "sriananthacart.in"
+      }
+    },
+    "production": {
+      "environment": "production",
+      "android": {
+        "buildType": "app-bundle"
+      },
+      "env": {
+        "EXPO_PUBLIC_API_URL": "https://api.sriananthacart.in",
+        "EXPO_PUBLIC_WEB_URL": "https://sriananthacart.in",
+        "APP_LINK_HOST": "sriananthacart.in"
+      }
+    }
+  },
+  "submit": {
+    "production": {
+      "android": {
+        "track": "internal"
+      }
+    }
+  }
+}

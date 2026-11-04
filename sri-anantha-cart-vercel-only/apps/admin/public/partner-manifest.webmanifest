@@ -1,0 +1,17 @@
+{
+  "name": "Sri Anantha Cart — Delivery Partner",
+  "short_name": "SAC Delivery",
+  "description": "Assigned deliveries, customer delivery codes and cash collection for Sri Anantha Cart delivery partners.",
+  "id": "/partner",
+  "start_url": "/partner",
+  "scope": "/partner",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#fefcf7",
+  "theme_color": "#7c1300",
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

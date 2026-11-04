@@ -1,0 +1,13 @@
+
+Small touch targets (<40px) — 9 distinct:
+  a.link-red "sign in"  320:44×21 360:44×21 375:44×21 390:44×21
+  a "About Us"  1280:81×20 1440:81×20
+  a "Help"  1280:53×20 1440:53×20
+  a "Track Order"  1280:98×20 1440:98×20
+  button.topbar-assistant "Shopping Assistant"  1280:143×20 1440:143×20
+  input  1280:458×23 1440:458×23
+  button  1280:36×36 1440:36×36
+  button.header-action "Delivering toTirupati"  1280:97×29 1440:97×29
+  a.header-action "Sign InAccount"  1280:101×29 1440:101×29
+
+130 page loads, 0 with layout defects.

@@ -1,0 +1,32 @@
+node_modules/
+.pnpm-store/
+.env
+.env.*
+!.env.example
+!.env.*.example
+!.env.test.example
+.next/
+dist/
+build/
+coverage/
+.expo/
+android/.gradle/
+android/local.properties
+*.jks
+*.keystore
+*.pem
+*.key
+.DS_Store
+
+# TypeScript incremental build artifacts
+*.tsbuildinfo
+
+# Local runtime data (uploaded media, dev OTP outbox)
+apps/api/var/
+var/
+*.jsonl
+
+# Media migration manifests (rollback data, environment-specific)
+media-migration-*.json
+.turbo/
+tests/responsive/shots/

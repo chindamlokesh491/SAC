@@ -1,0 +1,37 @@
+
+Small touch targets (<40px) — 33 distinct:
+  a.chart-hit  320:30×71 360:35×83 375:37×87 390:39×92
+  a.link-red "All products"  320:104×21 360:104×21 375:104×21 390:104×21
+  button.bell "11"  1280:36×43 1440:36×43
+  a.link-red "Open Reports"  1280:115×21 1440:115×21
+  a.link-red "Last 30 Days"  1280:110×21 1440:110×21
+  a.legend-link "Pending6(30.0%)"  1280:181×25 1440:190×25
+  a.legend-link "Accepted1(5.0%)"  1280:181×25 1440:190×25
+  a.legend-link "Packed2(10.0%)"  1280:181×25 1440:190×25
+  a.legend-link "Delivered8(40.0%)"  1280:181×25 1440:190×25
+  a.legend-link "Cancelled1(5.0%)"  1280:181×25 1440:190×25
+  a.btn-view "View"  1280:65×30 1440:65×30
+  a.btn-view "Edit"  1280:58×30 1440:58×30
+  button.btn-view "Archive"  1280:82×30 1440:82×30
+  button.btn-view "Delete"  1280:74×30 1440:74×30
+  button.btn "Previous"  1280:85×34 1440:85×34
+  button.btn "Next"  1280:59×34 1440:59×34
+  button.btn "Add variant"  1280:126×34 1440:126×34
+  button.btn-view "Edit"  1280:58×30 1440:58×30
+  button.btn-view "+ Subcategory"  1280:127×30 1440:127×30
+  button.btn-view "Update"  1280:79×30 1440:79×30
+  button.btn-view "History"  1280:80×30 1440:80×30
+  button.btn "Save charges"  1280:115×34 1440:115×34
+  button.btn "Add zone"  1280:113×34 1440:113×34
+  button.btn "Add slot"  1280:106×34 1440:106×34
+  button.btn "Last 7 days"  1280:101×34 1440:101×34
+  button.btn "Last 30 days"  1280:110×34 1440:110×34
+  button.btn "Last 90 days"  1280:110×34 1440:110×34
+  a.btn "CSV"  1280:82×34 1440:82×34
+  button.btn "Save store details"  1280:141×34 1440:141×34
+  button.btn "Save payment methods"  1280:178×34 1440:178×34
+  button.btn "Save tax settings"  1280:137×34 1440:137×34
+  button.icon-btn  1280:36×36 1440:36×36
+  button.btn "Add admin or operator"  1280:298×34 1440:298×34
+
+120 page loads, 0 with layout defects.
